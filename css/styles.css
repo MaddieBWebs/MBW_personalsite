@@ -3643,7 +3643,7 @@ td:last-child {
 	grid-row    : span 2;
 	justify-self: end;
 	align-self  : center;
-	
+	scale: 1.40;
 }
 
 .s-intro__content-media-inner {
