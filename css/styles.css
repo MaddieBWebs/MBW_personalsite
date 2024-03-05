@@ -3744,7 +3744,7 @@ td:last-child {
 	box-shadow: none;
 	right: 0vw;
 }
-.s-intro__content-media svg{
+.s-intro__content-media .sun img{
 	aspect-ratio: 0;
 	top:-11vh;
 	box-shadow: none;
