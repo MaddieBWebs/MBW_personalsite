@@ -117,9 +117,9 @@
 	--color-1-darker               : hsla(35, 87%, 29%, 1);
 	--color-1-darkest              : hsla(35, 87%, 10%, 1);
 
-	--color-2-lightest             : hsla(127, 8%, 55%, 1);
-	--color-2-lighter              : hsla(127, 8%, 42%, 1);
-	--color-2-light                : hsla(127, 8%, 32%, 1);
+	--color-2-lightest             : #c8c1c1;
+	--color-2-lighter              : #dddddd;
+	--color-2-light                : #FFFF;
 	--color-2-dark                 : #aeb8de;
 	--color-2-darker               : #aeb8de;
 	
