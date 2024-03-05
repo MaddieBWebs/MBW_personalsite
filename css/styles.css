@@ -3658,6 +3658,7 @@ td:last-child {
 	aspect-ratio  : 2/2.5;
 	vertical-align: bottom;
 	position      : relative;
+	top: -29vh;
 }
 
 .s-intro__content-media .lines {
@@ -3740,15 +3741,15 @@ td:last-child {
 
 .s-intro__content-media .lines img{
 	aspect-ratio: 0;
-	top:-11vh;
+	top:-33vh;
 	box-shadow: none;
 	right: 0vw;
 }
 .s-intro__content-media .sun img{
 	aspect-ratio: 0;
-	top: 20vh;
+	top: 2vh;
 	box-shadow: none;
-	right: 0vw;
+	right: 12vw;
 	z-index: -1;
 }
 
