@@ -3368,7 +3368,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 900px) {
 	.s-header {
-		--logo-width: 10rem;
+		--logo-width: 7rem;
 		top         : var(--vspace-0_25);
 	}
 
@@ -4642,6 +4642,7 @@ td:last-child {
 
 .pagemedia img {
 	vertical-align: bottom;
+	max-width: 25%;
 }
 
 .pagemain .column:first-child>*:first-child {
