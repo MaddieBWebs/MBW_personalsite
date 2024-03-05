@@ -3741,6 +3741,9 @@ td:last-child {
 
 .s-intro__content-media .lines img{
 	aspect-ratio: 0;
+	top:-11vh;
+	box-shadow: none;
+	right: 2vw;
 }
 
 /* --------------------------------------------------------------------
