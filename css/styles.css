@@ -3580,7 +3580,7 @@ td:last-child {
 	--content-min-height    : calc(var(--vspace-1) * 27);
 	z-index                 : 2;
 	background-color        : var(--color-2-dark);
-	background              : linear-gradient(20deg, hsl(130deg, 8%, 14%) 40%, hsl(0deg, 0%, 13%) 100%);
+	background              : var(--color-2);
 	width                   : 100%;
 	height                  : max(var(--content-min-height), 100vh);
 	overflow                : hidden;
@@ -3643,6 +3643,7 @@ td:last-child {
 	grid-row    : span 2;
 	justify-self: end;
 	align-self  : center;
+	
 }
 
 .s-intro__content-media-inner {
@@ -3657,7 +3658,6 @@ td:last-child {
 	object-fit    : cover;
 	aspect-ratio  : 2/2.5;
 	vertical-align: bottom;
-	box-shadow    : 0 60px 40px -40px rgba(0, 0, 0, 0.2);
 	position      : relative;
 }
 
