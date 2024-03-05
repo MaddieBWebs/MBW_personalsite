@@ -3747,10 +3747,12 @@ td:last-child {
 }
 .s-intro__content-media .sun img{
 	aspect-ratio: 0;
-	top: 2vh;
-	box-shadow: none;
-	right: 12vw;
-	z-index: -1;
+    top: 3vh;
+    box-shadow: none;
+    right: 3vw;
+    z-index: -1;
+    width: 44vw;
+    height: 43vh;
 }
 
 /* --------------------------------------------------------------------
@@ -3960,7 +3962,7 @@ td:last-child {
 .s-about {
 	padding-top     : var(--vspace-6);
 	padding-bottom  : var(--vspace-6);
-	background-color: var(--color-2-dark);
+	background-color: var(--color-2-darker);
 	color           : var(--color-3);
 }
 
