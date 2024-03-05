@@ -3742,7 +3742,14 @@ td:last-child {
 	aspect-ratio: 0;
 	top:-11vh;
 	box-shadow: none;
-	right: 2vw;
+	right: 0vw;
+}
+.s-intro__content-media .lines svg{
+	aspect-ratio: 0;
+	top:-11vh;
+	box-shadow: none;
+	right: 0vw;
+	z-index: -1;
 }
 
 /* --------------------------------------------------------------------
