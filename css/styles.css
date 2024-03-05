@@ -121,7 +121,7 @@
 	--color-2-lighter              : #dddddd;
 	--color-2-lightest                : #FFFF;
 	--color-2-dark                 : #aeb8de;
-	--color-2-darker               : #aeb8de;
+	--color-2-darker               : #9fa7ca;
 	
 	--color-3-light                : hsla(39, 93%, 100%, 1);
 	--color-3-dark                 : hsla(39, 93%, 85%, 1);
@@ -2209,7 +2209,7 @@ input[type=reset].btn--primary,
 input[type=button].btn--primary {
 	background  : var(--color-btn-primary);
 	border-color: var(--color-btn-primary);
-	color       : var(--color-btn-primary-text);
+	color       : var(--color-white);
 }
 
 .btn.btn--primary:focus,
