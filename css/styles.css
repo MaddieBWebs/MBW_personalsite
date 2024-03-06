@@ -4158,7 +4158,7 @@ td:last-child {
 	padding-top     : var(--vspace-4_5);
 	padding-bottom  : var(--vspace-3_5);
 	background-color: var(--color-2-dark);
-	background-image: url("/images/blobs.svg");
+	background-image: url("../images/blobs.svg");
 	color           : var(--color-3);
 }
 
