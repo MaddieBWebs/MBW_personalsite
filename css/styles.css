@@ -4155,13 +4155,18 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-cta {
-	padding-top     : var(--vspace-4_5);
-	padding-bottom  : var(--vspace-3_5);
-	background-color: var(--color-2-dark);
-	background-image: url("../images/blobs.svg");
-	background-repeat: no-repeat;
-	background: fixed;
-	color           : var(--color-3);
+	padding-top: var(--vspace-4_5);
+    padding-bottom: var(--vspace-3_5);
+    background-color: var(--color-2-dark);
+    background-image: url("../images/blobs.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 215rem auto;
+    /* background-attachment: fixed; */
+    background-position: center;
+    /* background: center; */
+    /* background: fixed; */
+    color: var(--color-3);
 }
 
 .s-cta .text-pretitle {
