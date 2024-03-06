@@ -3738,7 +3738,7 @@ td:last-child {
 .s-intro__scroll-down svg {
 	height: var(--vspace-0_875);
 	width : var(--vspace-0_875);
-	stroke: var(--color-3);
+	
 }
 
 /* --------------------------------------------------------------------
