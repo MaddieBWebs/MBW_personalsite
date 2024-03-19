@@ -3712,7 +3712,7 @@ td:last-child {
 .s-intro__scroll-down a {
 	display    : inline-flex;
 	align-items: center;
-	color      : var(--color-3);
+	color      : var(--color-1);
 }
 
 .s-intro__scroll-down span {
