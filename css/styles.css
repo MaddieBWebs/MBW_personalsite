@@ -4643,6 +4643,12 @@ td:last-child {
  *
  *
  * ------------------------------------------------------------------- */
+
+
+.CVfile a{
+    position: relative;
+}
+
 .pagemedia {
 	margin-bottom: var(--vspace-2_5);
 }
@@ -4653,13 +4659,13 @@ td:last-child {
 }
 
 .pagemedia img {
-	vertical-align: middle;
+    vertical-align: middle;
     max-width: 25%;
     position: relative;
     float: right;
     justify-content: center;
-    margin-right: 22%;
-    margin-top: -13%;
+    margin-right: 15%;
+    margin-top: -39%;
 }
 
 .pagemain .column:first-child>*:first-child {
