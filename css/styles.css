@@ -4659,13 +4659,14 @@ td:last-child {
 }
 
 .pagemedia img {
-    vertical-align: middle;
+    /* vertical-align: middle; */
     max-width: 25%;
-    position: relative;
-    float: right;
+    /* position: sticky; */
+    /* float: right; */
     justify-content: center;
-    margin-right: 15%;
-    margin-top: -39%;
+    /* margin-right: 19%; */
+    margin-top: -27%;
+    margin-left: 37%;
 }
 
 .pagemain .column:first-child>*:first-child {
