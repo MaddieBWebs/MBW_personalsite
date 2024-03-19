@@ -4650,7 +4650,7 @@ td:last-child {
 }
 
 .pagemedia {
-	margin-bottom: var(--vspace-2_5);
+	/*margin-bottom: var(--vspace-2_5);*/
 }
 
 .pagemedia figure,
