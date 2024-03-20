@@ -3975,7 +3975,6 @@ td:last-child {
 .s-header-imgbg {
     aspect-ratio: 1/1;
     width: 100%;
-    scale: 1.65;
     left: 9%;
     top: 48%;
     position: relative;
