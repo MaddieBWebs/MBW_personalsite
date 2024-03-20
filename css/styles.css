@@ -1529,6 +1529,14 @@ hr.fancy::before {
 	font-size  : var(--text-md);
 	line-height: var(--vspace-1_25);
 }
+.lead2,
+.attention-getter2 {
+	font-family: var(--font-1);
+	font-size  : var(--text-md);
+	line-height: var(--vspace-1_25);
+	margin-bottom: 0%;
+}
+
 
 @media screen and (max-width: 800px) {
 
