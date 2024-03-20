@@ -2825,7 +2825,7 @@ td:last-child {
 }
 
 .show-ctr .list-items__item-header::before {
-	content          : counter(ctr, decimal-leading-zero) ".";
+	content          : "•";
 	counter-increment: ctr;
 	display          : block;
 	font-family      : var(--font-1);
