@@ -4017,6 +4017,7 @@ td:last-child {
 
 .s-about__content-btn {
 	--color-btn-stroke           : var(--color-3);
+	z-index: 15;
 	--color-btn-stroke-text      : var(--color-3);
 	--color-btn-stroke-hover     : var(--color-3);
 	--color-btn-stroke-hover-text: var(--color-2-dark);
