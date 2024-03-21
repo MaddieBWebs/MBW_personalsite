@@ -355,7 +355,7 @@
 }
 
 .CVfile svg{
-    /*scale: 0.50;*/
+    scale: 1.50;
 }
 .CVfile{
 	padding-bottom: 0%;
