@@ -4005,6 +4005,14 @@ td:last-child {
 .s-about__content-main .attention-getter,
 .s-about__content-main .lead {
 	font-weight: 300;
+    font-size: var(--text-xl);
+    line-height: 1.0606;
+    /* letter-spacing: -0.012em; */
+    /* color: var(--color-text-dark); */
+    margin-top: 0;
+    margin-bottom: var(--vspace-1_5);
+
+	font-weight: 300;
 }
 
 .s-about__content-btn {
