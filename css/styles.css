@@ -3758,7 +3758,7 @@ td:last-child {
 	height         : var(--vspace-1_5);
 	width          : var(--vspace-1_5);
 	border-radius  : 50%;
-	border         : 1px solid var(--color-1);
+	border         : 1px solid var(--color-3);
 	margin-right   : var(--vspace-0_5);
 }
 
