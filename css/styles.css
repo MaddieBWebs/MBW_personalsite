@@ -521,8 +521,7 @@ table {
 	cursor: pointer;
 	position: absolute;
 	top: 45%;
-	color: red;
-	background-color: white;
+	color: rgb(255, 255, 255);
 	padding: 8px 18px;
 	font-size: 25px;
 	font-weight: bold;

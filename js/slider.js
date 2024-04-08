@@ -23,7 +23,7 @@ function auto() {
 
     autoslides[counter].style.display = "block";
     counter++;
-        if (counter == autoslides.length) {
+    if (counter == autoslides.length) {
         counter = 0;
     }
 
