@@ -516,8 +516,8 @@ table {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 50%;
+	min-height: 50%;
 	opacity: 0;
 	transition: opacity 1s ease-in-out;
 	z-index: -1;
