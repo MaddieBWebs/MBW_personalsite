@@ -1,59 +1,82 @@
-/*Images 6 ( index: 0 1 2 3 4 5 )
-
-Length =6 */
-
-let slideno = 0;
-
-/* Previous and Next Buttons*/
-
-function controller(x) {
-    slideno = slideno + x;
-    slideshow(slideno);
-}
-
-slideshow(slideno);
-/* Auto Slide */
-setInterval(auto, 2000);
+// IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
+var imageSlides = document.getElementsByClassName('imageSlides');
+var circles = document.getElementsByClassName('circle');
+var leftArrow = document.getElementById('leftArrow');
+var rightArrow = document.getElementById('rightArrow');
 var counter = 0;
-function auto() {
-    var autoslides = document.getElementsByClassName("slide");
-    for (var all of autoslides) {
-        all.style.display = "none";
-    }
 
-    autoslides[counter].style.display = "block";
-    counter++;
-    if (counter == autoslides.length) {
-        counter = 0;
-    }
-
+// HIDE ALL IMAGES FUNCTION
+function hideImages() {
+  for (var i = 0; i < imageSlides.length; i++) {
+    imageSlides[i].classList.remove('visible');
+  }
 }
 
-/* Slideshow function*/
-
-function slideshow(num) {
-    var slides = document.getElementsByClassName("slide");
-/*moves slide back to ‘0’ when it reaches to the End of the slides*/
-    if (num == slides.length) {
-        slideno = 0;
-        num = 0;
-    }
-
-    /*moves slides backwads with the previous button*/
-    if (num < 0) {
-        slideno = slides.length - 1;
-        num = slides.length - 1;
-    }
-
-    /* Bydefault made all slides display none*/
-
-    for (var all of slides) {
-        all.style.display = "none";
-    }
-
-    /* To display image at [0] bydeafulat*/
-
-    /*Will display slide with the value in “num” variable*/
-    slides[num].style.display = "block";
-
+// REMOVE ALL DOTS FUNCTION
+function removeDots() {
+  for (var i = 0; i < imageSlides.length; i++) {
+    circles[i].classList.remove('dot');
+  }
 }
+
+// SINGLE IMAGE LOOP/CIRCLES FUNCTION
+function imageLoop() {
+  var currentImage = imageSlides[counter];
+  var currentDot = circles[counter];
+  currentImage.classList.add('visible');
+  removeDots();
+  currentDot.classList.add('dot');
+  counter++;
+}
+
+// LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
+function arrowClick(e) {
+  var target = e.target;
+  if (target == leftArrow) {
+    clearInterval(imageSlideshowInterval);
+    hideImages();
+    removeDots();
+    if (counter == 1) {
+      counter = (imageSlides.length - 1);
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    } else {
+      counter--;
+      counter--;
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    }
+  } 
+  else if (target == rightArrow) {
+    clearInterval(imageSlideshowInterval);
+    hideImages();
+    removeDots();
+    if (counter == imageSlides.length) {
+      counter = 0;
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    } else {
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    }
+  }
+}
+
+leftArrow.addEventListener('click', arrowClick);
+rightArrow.addEventListener('click', arrowClick);
+
+
+// IMAGE SLIDE FUNCTION
+function slideshow() {
+  if (counter < imageSlides.length) {
+    imageLoop();
+  } else {
+    counter = 0;
+    hideImages();
+    imageLoop();
+  }
+}
+
+// SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
+setTimeout(slideshow, 1000);
+var imageSlideshowInterval = setInterval(slideshow, 10000);
