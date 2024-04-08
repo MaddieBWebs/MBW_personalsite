@@ -503,6 +503,20 @@ table {
 	border-spacing : 0;
 }
 
+.main2{
+
+	max-width: 70%;
+	
+	height: 500px;
+	
+	margin: 100px auto;
+	
+	box-shadow: 0px 0px 30px grey;
+	
+	position: relative;
+	
+	}
+
 .arrow {
 	cursor: pointer;
 	position: absolute;
