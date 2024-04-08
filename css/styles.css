@@ -4315,24 +4315,6 @@ td:last-child {
 	border-bottom   : 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.s-journal a {
-	color: var(--color-1);
-}
-
-.s-journal a:focus,
-.s-journal a:hover {
-	color: var(--color-3-dark);
-}
-
-.s-journal h3 a {
-	color: var(--color-3);
-}
-
-.s-journal h3 a:focus,
-.s-journal h3 a:hover {
-	color: var(--color-3);
-}
-
 .s-journal .section-header {
 	margin: 0 auto;
 }
@@ -4348,9 +4330,6 @@ td:last-child {
 	margin: 0 auto;
 }
 
-.s-journal .blog-card-title a {
-	color: var(--color-3);
-}
 
 .s-journal__content-main {
 	margin-top: var(--vspace-2);
