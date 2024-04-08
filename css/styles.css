@@ -503,7 +503,20 @@ table {
 	border-spacing : 0;
 }
 
+.arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 45%;
+	color: red;
+	background-color: white;
+	padding: 8px 18px;
+	font-size: 25px;
+	font-weight: bold;
+}
 
+#next {
+	right: -55px;
+}
 /* ===================================================================
  * # GRID v5.0.0
  *
