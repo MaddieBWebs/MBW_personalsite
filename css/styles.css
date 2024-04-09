@@ -527,9 +527,11 @@ table {
   }
   .hide{
 	pointer-events: none;
+	cursor: not-allowed;
   }
   .unhide{
 	pointer-events: all;
+	cursor: pointer;
   }
   
   .slideshowArrow {
