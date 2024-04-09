@@ -25,6 +25,7 @@ function imageLoop() {
   var currentImage = imageSlides[counter];
   var currentDot = circles[counter];
   currentImage.classList.add('visible');
+  currentImage.getElementsByClassName('imgLink').style.visibility = "visible";
   removeDots();
   currentDot.classList.add('dot');
   counter++;
