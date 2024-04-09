@@ -512,6 +512,8 @@ table {
   
   .imageSlides {
 	position: absolute;
+	pointer-events: none;
+	cursor: not-allowed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
@@ -524,12 +526,6 @@ table {
   /* add 'visible' class via Javascript */
   .visible {
 	opacity: 1;
-  }
-  .hide{
-	pointer-events: none;
-	cursor: not-allowed;
-  }
-  .unhide{
 	pointer-events: all;
 	cursor: pointer;
   }

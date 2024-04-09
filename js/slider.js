@@ -10,8 +10,6 @@ var counter = 0;
 function hideImages() {
   for (var i = 0; i < imageSlides.length; i++) {
     imageSlides[i].classList.remove('visible');
-    imageLinks[i].classList.remove('unhide');
-    imgLinks[i].classList.add('hide');
   }
 }
 
@@ -28,8 +26,6 @@ function imageLoop() {
   var currentDot = circles[counter];
   var currentLink = imgLinks[counter];
   currentImage.classList.add('visible');
-  currentLink.classList.remove('hide');
-  currentLink.classList.add('unhide');
   removeDots();
   currentDot.classList.add('dot');
   counter++;
