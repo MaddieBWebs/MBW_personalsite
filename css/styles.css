@@ -528,6 +528,9 @@ table {
   .hide{
 	pointer-events: none;
   }
+  .unhide{
+	pointer-events: all;
+  }
   
   .slideshowArrow {
 	font-size: 7em;
