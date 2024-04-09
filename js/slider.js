@@ -9,7 +9,7 @@ var counter = 0;
 function hideImages() {
   for (var i = 0; i < imageSlides.length; i++) {
     imageSlides[i].classList.remove('visible');
-    imageSlides[i].getElementsByTagName('a').style.visibility = "hidden";
+    imageSlides[i].getElementsByClassName('imgLink').style.visibility = "hidden";
   }
 }
 
