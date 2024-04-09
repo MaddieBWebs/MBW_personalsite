@@ -525,6 +525,9 @@ table {
   .visible {
 	opacity: 1;
   }
+  .hide{
+	pointer-events: none;
+  }
   
   .slideshowArrow {
 	font-size: 7em;
