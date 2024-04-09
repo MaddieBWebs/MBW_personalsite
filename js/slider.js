@@ -9,7 +9,7 @@ var counter = 0;
 function hideImages() {
   for (var i = 0; i < imageSlides.length; i++) {
     imageSlides[i].classList.remove('visible');
-    this.attr('disabled');
+    
   }
 }
 
@@ -26,7 +26,6 @@ function imageLoop() {
   var currentDot = circles[counter];
   currentImage.classList.add('visible');
   removeDots();
-  this.attr('enabled');
   currentDot.classList.add('dot');
   counter++;
 }
