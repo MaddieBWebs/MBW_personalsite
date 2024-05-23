@@ -4046,8 +4046,8 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-	padding-top     : var(--vspace-6);
-	padding-bottom  : var(--vspace-6);
+	padding-top     : var(--vspace-3);
+	padding-bottom  : var(--vspace-3);
 	background-color: var(--color-2-darker);
 	color           : var(--color-3);
 }
@@ -4083,7 +4083,7 @@ td:last-child {
     line-height: 1.5;
     /* letter-spacing: -0.012em; */
     /* color: var(--color-text-dark); */
-    margin-top: 0;
+    margin-top: var(--vspace-4_5);
     margin-bottom: var(--vspace-1_5);
 
 	font-weight: 300;
