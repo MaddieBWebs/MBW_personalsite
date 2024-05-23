@@ -4096,7 +4096,7 @@ td:last-child {
     line-height: 1.5;
     /* letter-spacing: -0.012em; */
     /* color: var(--color-text-dark); */
-    margin-top: var(--vspace-4_5);
+    /* margin-top: var(--vspace-4_5); */
     margin-bottom: var(--vspace-1_5);
 
 	font-weight: 300;
