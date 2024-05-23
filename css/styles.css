@@ -4090,9 +4090,10 @@ td:last-child {
 }
 .s-about__content-imgbg-paint {
     aspect-ratio: 1/1;
-    scale: 1.65;
-    left: 9%;
-    top: 27%;
+    scale: 4.50;
+    left: 42vw;
+    top: 22vh;
+    z-index: revert-layer;
     position: relative;
     height: auto;
     /* transform: translate(-40%, 0); */
