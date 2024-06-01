@@ -352,6 +352,9 @@
 	:root {
 		--gutter: 1rem;
 	}
+	.expImg{
+		display: none;
+	}
 }
 
 .CVfile svg{
