@@ -1633,7 +1633,7 @@ hr.fancy::before {
 		line-height: calc(1.125 * var(--space));
 	}
 
-	.row img{
+	.expImg{
 		display: none;
 	}
 }
@@ -3129,6 +3129,9 @@ td:last-child {
 	.testimonials__cite {
 		text-align: left;
 	}
+	.expImg{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -3140,6 +3143,9 @@ td:last-child {
 	.show-ctr .list-items__item-header::before {
 		font-size   : 0.9em;
 		margin-right: var(--vspace-0_125);
+	}
+	.expImg{
+		display: none;
 	}
 }
 
