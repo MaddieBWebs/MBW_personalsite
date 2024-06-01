@@ -1634,7 +1634,7 @@ hr.fancy::before {
 	}
 
 	img .row{
-		
+		display: none;
 	}
 }
 
