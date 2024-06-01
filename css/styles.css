@@ -344,6 +344,9 @@
 	:root {
 		--gutter: 2.2rem;
 	}
+	.expImg{
+		display: none;
+	}
 }
 
 /* on small devices
@@ -356,6 +359,7 @@
 		display: none;
 	}
 }
+
 
 .CVfile svg{
     scale: 1.50;
