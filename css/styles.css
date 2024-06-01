@@ -348,6 +348,12 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 1500px) {
+
+	.expImg{
+		display: none;
+	}
+}
 
 /* on small devices
  */
