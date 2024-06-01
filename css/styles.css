@@ -1633,7 +1633,7 @@ hr.fancy::before {
 		line-height: calc(1.125 * var(--space));
 	}
 
-	img .row{
+	.row img{
 		display: none;
 	}
 }
