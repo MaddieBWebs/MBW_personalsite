@@ -4076,12 +4076,10 @@ td:last-child {
     grid-row: 1/span 1;
 }
 .s-about__content-imgbg-disco {
-    aspect-ratio: 1/1;
     scale: 1.65;
     left: 9%;
     top: 27%;
     position: relative;
-    height: auto;
     /* transform: translate(-40%, 0); */
     margin: -20% 0 0 0;
     opacity: 0.25;
