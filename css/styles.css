@@ -1649,6 +1649,9 @@ hr.fancy::before {
 	.expImg{
 		display: none;
 	}
+	.s-about__content-main .attention-getter{
+		font-size: medium;
+	}
 }
 
 .pull-quote {
