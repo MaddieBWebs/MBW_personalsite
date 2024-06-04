@@ -364,6 +364,9 @@
 	.expImg{
 		display: none;
 	}
+	p.attention-getter {
+		font-size: medium;
+	}
 }
 
 
@@ -4326,6 +4329,9 @@ td:last-child {
 	.clients-list__item a {
 		padding: var(--vspace-1) var(--vspace-0_25);
 	}
+	p.attention-getter {
+		font-size: medium;
+	}
 }
 
 @media screen and (max-width: 460px) {
@@ -4779,6 +4785,9 @@ td:last-child {
 		margin-top   : 0;
 		margin-bottom: var(--vspace-2);
 	}
+	p.attention-getter {
+		font-size: medium;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -4804,6 +4813,9 @@ td:last-child {
 		flex   : none;
 		width  : 100%;
 		padding: 0;
+	}
+	p.attention-getter {
+		font-size: medium;
 	}
 }
 
