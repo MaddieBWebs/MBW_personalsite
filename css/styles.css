@@ -4174,6 +4174,7 @@ td:last-child {
 	.s-about__content-imgbg-disco {
 		grid-column: 1/span 4;
 		width      : 60vw;
+		display: none;
 	}
 }
 
