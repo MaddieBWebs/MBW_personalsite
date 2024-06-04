@@ -4324,6 +4324,7 @@ td:last-child {
     color: rgba(255, 255, 255, 0.6);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
+}
 
   @media screen and (max-width: 600px) {
     .clients-list__item a {
@@ -4935,7 +4936,7 @@ td:last-child {
     padding-left: 0;
   }
 
-  .column.xl-6.lg-12.u-flexitem-x-right .bDiv {
+ .bDiv {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -5222,4 +5223,4 @@ td:last-child {
         140%/60% 60%;
     background-repeat: no-repeat;
   }
-}
+
