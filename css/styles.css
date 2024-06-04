@@ -1649,7 +1649,7 @@ hr.fancy::before {
 	.expImg{
 		display: none;
 	}
-	.attention-getter{
+	.attention-getter p{
 		font-size: medium;
 	}
 }
