@@ -1924,7 +1924,7 @@ img,
 	background: url(https://static-00.iconduck.com/assets.00/frog-emoji-256x239-cmidufdb.png)
 	  no-repeat center center/100%;
 	animation-fill-mode: both;
-	animation: frogFadInOut 2s infinite ease-in-out;
+	animation: dots-fade 2s infinite ease-in-out;
   }
   .loader {
 	margin: 0 5px;
@@ -1941,7 +1941,7 @@ img,
 	animation-delay: 0.16s;
   }
   
-  @keyframes frogFadInOut {
+  @keyframes dots-fade {
 	0%,
 	80%,
 	100% {
