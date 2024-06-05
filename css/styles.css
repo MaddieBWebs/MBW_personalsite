@@ -103,19 +103,21 @@
    * color-2(#343D35)
    * color-3(#FEF5E4)
    */
-   --purple-highlight: #E6DAED;
-  --purple-shadow: #9A87A5;
-  --purple-light: #cdb4db;
-  --purple-light-mid: #B698C7;
-  --purple-mid: #9F7BB3;
-  --purple-filling: #70428A;
-  --purple-crackle: #7C5195;
+   --purple-highlight: #ffe1ec;
+  --purple-shadow: #b79aa5;
+  --purple-light: #FFC8DD;
+  --purple-light-mid: #fda5c5;
+  --purple-mid: #fd99be;
+  --purple-filling: #d38ea7;
+  --purple-crackle: #FFAFCC;
   
   --pink-light: #FFC8DD;
   --pink-dark: #FFAFCC;
   
   --blue-light: #DEF0FF;
   --blue-dark: #A2D2FF;
+
+
   --color-1: #4b65c8;
   --color-2: #aeb8de;
   --color-3: hsla(39, 93%, 95%, 1);
