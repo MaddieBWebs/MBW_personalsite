@@ -4941,6 +4941,7 @@ td:last-child {
 	max-width: fit-content;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: var(--vspace-1_75);
   }
   .bDiv::before {
     display: block;
