@@ -1909,188 +1909,49 @@ img,
  * <dots-fade | dots-jump | dots-pulse>
  *
  * ------------------------------------------------------------------- */
-#preloader {
-  position: fixed;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-preloader-bg);
-  z-index: 500;
-  height: 100vh;
-  width: 100%;
-  opacity: 1;
-  overflow: hidden;
-}
 
-.no-js #preloader {
-  display: none;
-}
-
-#loader {
-  position: relative;
-  width: 4px;
-  height: 4px;
-  padding: 0;
-  display: inline-block;
-}
-
-#loader > div {
-  content: "";
-  background: var(--color-loader);
-  width: 4px;
-  height: 4px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-}
-
-#loader > div:nth-of-type(1) {
-  left: 15px;
-}
-
-#loader > div:nth-of-type(3) {
-  left: -15px;
-}
-
-/* dots jump */
-.dots-jump > div {
-  -webkit-animation: dots-jump 1.2s infinite ease;
-  animation: dots-jump 1.2s infinite ease;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.dots-jump > div:nth-of-type(1) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.dots-jump > div:nth-of-type(3) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-@-webkit-keyframes dots-jump {
-  0% {
-    top: 0;
+ .preloader {
+	display: flex;
+	justify-content: center;
+	position: relative;
   }
-
-  40% {
-    top: -6px;
+  .loader,
+  .preloader:before,
+  .preloader:after {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(https://static-00.iconduck.com/assets.00/frog-emoji-256x239-cmidufdb.png)
+	  no-repeat center center/100%;
+	animation-fill-mode: both;
+	animation: frogFadInOut 2s infinite ease-in-out;
   }
-
-  80% {
-    top: 0;
+  .loader {
+	margin: 0 5px;
+	animation-delay: -0.16s;
   }
-}
-
-@keyframes dots-jump {
-  0% {
-    top: 0;
+  .preloader:before,
+  .preloader:after {
+	content: "";
   }
-
-  40% {
-    top: -6px;
+  .preloader:before {
+	animation-delay: -0.32s;
   }
-
-  80% {
-    top: 0;
+  .preloader:after {
+	animation-delay: 0.16s;
   }
-}
-
-/* dots fade */
-.dots-fade > div {
-  -webkit-animation: dots-fade 1.6s infinite ease;
-  animation: dots-fade 1.6s infinite ease;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.dots-fade > div:nth-of-type(1) {
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-}
-
-.dots-fade > div:nth-of-type(3) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-@-webkit-keyframes dots-fade {
-  0% {
-    opacity: 1;
+  
+  @keyframes frogFadInOut {
+	0%,
+	80%,
+	100% {
+	  transform: scale(1);
+	}
+	40% {
+	  transform: scale(0.75);
+	}
   }
-
-  40% {
-    opacity: 0.2;
-  }
-
-  80% {
-    opacity: 1;
-  }
-}
-
-@keyframes dots-fade {
-  0% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0.2;
-  }
-
-  80% {
-    opacity: 1;
-  }
-}
-
-/* dots pulse */
-.dots-pulse > div {
-  -webkit-animation: dots-pulse 1.2s infinite ease;
-  animation: dots-pulse 1.2s infinite ease;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.dots-pulse > div:nth-of-type(1) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.dots-pulse > div:nth-of-type(3) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-@-webkit-keyframes dots-pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  40% {
-    transform: scale(1.3);
-  }
-
-  80% {
-    transform: scale(1);
-  }
-}
-
-@keyframes dots-pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  40% {
-    transform: scale(1.3);
-  }
-
-  80% {
-    transform: scale(1);
-  }
-}
+  
 
 /* ------------------------------------------------------------------- 
  * ## page loaded
