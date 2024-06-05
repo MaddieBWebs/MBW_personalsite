@@ -4941,6 +4941,7 @@ td:last-child {
     left: 50%;
     top: 50%; */
 	margin-left: 5vw;
+	margin-top: 1em;
   }
   .bDiv::before {
     display: block;
