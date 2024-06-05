@@ -4937,9 +4937,10 @@ td:last-child {
   }
 
  .bDiv {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50%; */
+	margin-left: 5vw;
   }
   .bDiv::before {
     display: block;
@@ -4955,8 +4956,8 @@ td:last-child {
     box-sizing: border-box;
     width: 12em;
     height: 17em;
-    margin-left: -6em;
-    margin-top: -8.5em;
+    /* margin-left: -6em;
+    margin-top: -8.5em; */
     background: radial-gradient(
           circle at 50% 100%,
           rgba(0, 0, 0, 0) 64.5%,
