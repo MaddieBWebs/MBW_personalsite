@@ -5227,7 +5227,7 @@ td:last-child {
   .mixed {
 	width: 110vmin;
 	height: 97vmin;
-	transform: scale(0.4);
+	transform: scale(0.2);
 	border: solid 5px rgba(40, 16, 20, 1.0);
 	display: flex;
 	margin: 0 auto;
