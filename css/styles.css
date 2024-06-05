@@ -4938,11 +4938,9 @@ td:last-child {
   }
 
  .bDiv {
-    /* position: absolute;
-    left: 50%;
-    top: 50%; */
-	margin-left: 5vw;
-	margin-top: 1em;
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
   }
   .bDiv::before {
     display: block;
