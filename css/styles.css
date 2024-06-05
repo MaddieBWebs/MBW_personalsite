@@ -361,14 +361,10 @@
   :root {
     --gutter: 2.2rem;
   }
-  .expImg {
-    display: none;
-  }
+  
 }
 @media screen and (max-width: 1500px) {
-  .expImg {
-    display: none;
-  }
+
 }
 
 /* on small devices
@@ -377,9 +373,7 @@
   :root {
     --gutter: 1rem;
   }
-  .expImg {
-    display: none;
-  }
+
   p.attention-getter {
     font-size: medium;
   }
@@ -1663,9 +1657,7 @@ hr.fancy::before {
     line-height: calc(1.125 * var(--space));
   }
 
-  .expImg {
-    display: none;
-  }
+
   p.attention-getter {
     font-size: medium;
   }
@@ -3156,9 +3148,7 @@ td:last-child {
   .testimonials__cite {
     text-align: left;
   }
-  .expImg {
-    display: none;
-  }
+  
   p.attention-getter {
     font-size: medium;
   }
@@ -3174,9 +3164,7 @@ td:last-child {
     font-size: 0.9em;
     margin-right: var(--vspace-0_125);
   }
-  .expImg {
-    display: none;
-  }
+
 }
 
 /* ===================================================================
