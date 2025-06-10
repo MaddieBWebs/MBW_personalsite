@@ -703,7 +703,7 @@ canvas {
  * -------------------------------------------------------------------- */
 #marco{
     width: 50em;
-    height: 17em;
+    height: 15;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 16px;
@@ -730,7 +730,6 @@ canvas {
 
 
 #gato{
-  scale: 0.80;
     background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg');
     height: 13em; 
     width: 20em;
@@ -3563,24 +3562,14 @@ td:last-child {
  * responsive:
  * site-header
  * ------------------------------------------------------------------- */
-@media screen and (min-width: 1500px){
-  .s-intro .gato {
-    display: none;
-  }
-    .s-intro .marco {
-    display: none;
-  }
-  .s-intro .cat {
-    display: none;
-  }
-    }
 
+ 
 @media screen and (max-width: 900px) {
   .s-header {
     --logo-width: 7rem;
     top: var(--vspace-0_25);
   }
-  .s-intro .gato {
+  .s-intro .cat {
     display: none;
   }
 
@@ -3700,7 +3689,7 @@ td:last-child {
   .s-header__menu-toggle {
     right: calc(var(--gutter) * 2 + 0.4rem);
   }
-    .s-intro .gato  {
+    .s-intro .cat  {
     display: none;
   }
 }
@@ -3714,7 +3703,7 @@ td:last-child {
   .s-header__nav a:not(.btn) {
     font-size: var(--text-size);
   }
-    .s-intro .gato {
+    .s-intro .cat {
     display: none;
   }
 }
@@ -3774,7 +3763,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 800px) {
-    .s-intro .gato{
+    .s-intro .cat{
     display: none;
   }
   .s-pageheader {
@@ -3791,7 +3780,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 600px) {
-    .s-intro .gato {
+    .s-intro .cat {
     display: none;
   }
   .s-pagecontent {
@@ -4070,7 +4059,7 @@ td:last-child {
     --content-padding-top: max(12rem, 18vh);
     height: auto;
   }
-    .s-intro .gato {
+    .s-intro .cat {
     display: none;
   }
   .s-intro__content-inner {
@@ -4144,7 +4133,7 @@ td:last-child {
   p.attention-getter {
     font-size: medium;
   }
-      .s-intro .gato {
+      .s-intro .cat {
     display: none;
   }
 }
@@ -4158,13 +4147,13 @@ td:last-child {
     width: 200%;
     transform: translate(-100%, 0);
   }
-      .s-intro .gato {
+      .s-intro .cat {
     display: none;
   }
 }
 
 @media screen and (max-width: 560px) {
-        .s-intro .gato {
+        .s-intro .cat {
     display: none;
   }
   .s-intro__content-pretitle {
