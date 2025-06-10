@@ -3567,7 +3567,7 @@ td:last-child {
     --logo-width: 7rem;
     top: var(--vspace-0_25);
   }
-  .cat {
+  #marco {
     display: hide;
   }
 
@@ -3687,7 +3687,7 @@ td:last-child {
   .s-header__menu-toggle {
     right: calc(var(--gutter) * 2 + 0.4rem);
   }
-   .cat {
+    #marco  {
     display: hide;
   }
 }
@@ -3701,7 +3701,7 @@ td:last-child {
   .s-header__nav a:not(.btn) {
     font-size: var(--text-size);
   }
-   .cat {
+    #marco {
     display: hide;
   }
 }
@@ -3761,7 +3761,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 800px) {
-   .cat {
+    #marco{
     display: hide;
   }
   .s-pageheader {
@@ -3778,7 +3778,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 600px) {
-   .cat {
+    #marco {
     display: hide;
   }
   .s-pagecontent {
@@ -3868,7 +3868,7 @@ td:last-child {
 
 .s-intro__content-media img {
   z-index: 2;
-  width: max(512px, 10vw);
+  width: max(50em, 10vw);
   margin: 0;
   -o-object-fit: cover;
   object-fit: cover;
