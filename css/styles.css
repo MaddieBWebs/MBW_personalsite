@@ -826,12 +826,8 @@ canvas {
   width: 100%;
   
 }
-@media screen and (max-width: 1400px) {
-  .s-intro .cat{
-    margin-top: 6em;
-  }
-}
-@media screen and (min-width: 1401px) {
+
+@media screen and (min-width: 1200px) {
   .s-intro .cat{
     display: none;
   }
