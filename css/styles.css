@@ -3567,7 +3567,7 @@ td:last-child {
     --logo-width: 7rem;
     top: var(--vspace-0_25);
   }
-  #marco {
+  #gato {
     display: hide;
   }
 
@@ -3687,7 +3687,7 @@ td:last-child {
   .s-header__menu-toggle {
     right: calc(var(--gutter) * 2 + 0.4rem);
   }
-    #marco  {
+    #gato  {
     display: hide;
   }
 }
@@ -3701,7 +3701,7 @@ td:last-child {
   .s-header__nav a:not(.btn) {
     font-size: var(--text-size);
   }
-    #marco {
+    #gato {
     display: hide;
   }
 }
@@ -3761,7 +3761,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 800px) {
-    #marco{
+    #gato{
     display: hide;
   }
   .s-pageheader {
@@ -3778,7 +3778,7 @@ td:last-child {
 }
 
 @media screen and (max-width: 600px) {
-    #marco {
+    #gato {
     display: hide;
   }
   .s-pagecontent {
