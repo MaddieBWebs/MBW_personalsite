@@ -832,11 +832,6 @@ canvas {
     display: none;
   }
 }
-@media screen and (min-width: 1000px) and (max-height: 600px)  {
-  .s-intro .cat{
-    display: none;
-  }
-}
 
 /* --------------------------------------------------------------------
  * ## large devices (1001px to 1200px)
