@@ -3563,8 +3563,14 @@ td:last-child {
  * responsive:
  * site-header
  * ------------------------------------------------------------------- */
-@media screen and (min-width: 1430px){
+@media screen and (min-width: 1500px){
   .s-intro .gato {
+    display: none;
+  }
+    .s-intro .marco {
+    display: none;
+  }
+  .s-intro .cat {
     display: none;
   }
     }
