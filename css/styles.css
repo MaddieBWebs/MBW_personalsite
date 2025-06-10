@@ -703,7 +703,7 @@ canvas {
  * -------------------------------------------------------------------- */
 #marco{
     width: 50em;
-    height: 15;
+    height: 15em;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 16px;
@@ -834,6 +834,9 @@ canvas {
   .lg-1 {
     flex: none;
     width: 8.3333333333%;
+  }
+  .s-intro .cat{
+    margin-top: 6em;
   }
 
   .lg-2 {
