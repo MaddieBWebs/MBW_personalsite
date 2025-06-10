@@ -730,6 +730,7 @@ canvas {
 
 
 #gato{
+  scale: 0.80;
     background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg');
     height: 13em; 
     width: 20em;
@@ -3562,8 +3563,8 @@ td:last-child {
  * responsive:
  * site-header
  * ------------------------------------------------------------------- */
-@media screen and (min-width: 1430px) and (max-width: 2500px) {
-      .s-intro .gato {
+@media screen and (min-width: 1430px){
+  .s-intro .gato {
     display: none;
   }
     }
