@@ -3567,6 +3567,9 @@ td:last-child {
     --logo-width: 7rem;
     top: var(--vspace-0_25);
   }
+  .cat {
+    display: hide;
+  }
 
   .s-header__inner {
     width: 100%;
@@ -3684,6 +3687,9 @@ td:last-child {
   .s-header__menu-toggle {
     right: calc(var(--gutter) * 2 + 0.4rem);
   }
+   .cat {
+    display: hide;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -3694,6 +3700,9 @@ td:last-child {
 
   .s-header__nav a:not(.btn) {
     font-size: var(--text-size);
+  }
+   .cat {
+    display: hide;
   }
 }
 
@@ -3752,6 +3761,9 @@ td:last-child {
 }
 
 @media screen and (max-width: 800px) {
+   .cat {
+    display: hide;
+  }
   .s-pageheader {
     padding-top: var(--vspace-5);
     padding-bottom: var(--vspace-2);
@@ -3766,6 +3778,9 @@ td:last-child {
 }
 
 @media screen and (max-width: 600px) {
+   .cat {
+    display: hide;
+  }
   .s-pagecontent {
     padding-top: var(--vspace-3);
   }
