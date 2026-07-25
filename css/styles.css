@@ -4006,6 +4006,9 @@ td:last-child {
   position: relative;
 }
 
+.coffee{
+  font-family: var(--font-1);
+}
 /* ===================================================================
  * # SITE HEADER
  *
